@@ -217,4 +217,47 @@ iframe {
 }
 
 
+@media (max-width: 500px) {
+    header {
+        height: 50vh;
+        flex-direction: column;
 
+        nav {
+            width: 100%;
+
+            ul {
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .containerLogo{
+        width: 150vw;
+        flex-direction: column;
+        
+    }
+
+    section {
+        flex-direction: column-reverse;
+
+        p{
+            width: 90%;
+            font-size: 20px;
+        }
+    }
+
+    footer {
+        flex-direction: column;
+
+        section {
+            padding: 10px;
+            
+            p {
+                padding: 20px;
+            }
+        }
+    }
+    
+}
