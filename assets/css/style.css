@@ -234,4 +234,21 @@ iframe {
     width: 25vw;
     align-items: center;
   }
+  .list-music {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 15px;
+  }
+  .social-media {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .container-footer {
+    height: 20vh;
+    width: 105%;
+    display: inline-block;
+  }
+  .container-footer img {
+    width: 40vw;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -272,5 +272,25 @@ iframe {
         }
     }
 
+    .list-music {
+        display: inline-block;
+        margin-right: 10px;
+        padding: 15px;
+    }
     
+    .social-media {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .container-footer{
+        height: 20vh;
+        width: 105%;
+        display: inline-block;
+
+        img {
+            width: 40vw;
+        }
+    }
+
 }
