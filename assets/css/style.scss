@@ -227,37 +227,50 @@ iframe {
 
             ul {
                 a {
-                    font-size: 15px;
+                    font-size: 17px;
+                }
+
+                a:hover {
+                    font-size: 22px;
                 }
             }
         }
     }
 
     .containerLogo{
-        width: 150vw;
+        width: 60%;
+        display: flex;
         flex-direction: column;
+
+        img {
+            width: 90%;
+        }
         
     }
 
-    section {
-        flex-direction: column-reverse;
+    .sobre {
+        display: flex;
+        flex-direction: column;
 
-        p{
-            width: 90%;
-            font-size: 20px;
+        img {
+            width: 70%;
         }
     }
 
-    footer {
+    .sobre-album {
         flex-direction: column;
+        height: 130vh;
 
-        section {
-            padding: 10px;
-            
-            p {
-                padding: 20px;
+        img {
+            width: 70%;
+
+            p{
+                font-size: 20px;
+                width: 25vw;
+                align-items: center;
             }
         }
     }
+
     
 }

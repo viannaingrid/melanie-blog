@@ -202,26 +202,36 @@ iframe {
     width: 100%;
   }
   header nav ul a {
-    font-size: 15px;
+    font-size: 17px;
+  }
+  header nav ul a:hover {
+    font-size: 22px;
   }
   .containerLogo {
-    width: 150vw;
+    width: 60%;
+    display: flex;
     flex-direction: column;
   }
-  section {
-    flex-direction: column-reverse;
-  }
-  section p {
+  .containerLogo img {
     width: 90%;
-    font-size: 20px;
   }
-  footer {
+  .sobre {
+    display: flex;
     flex-direction: column;
   }
-  footer section {
-    padding: 10px;
+  .sobre img {
+    width: 70%;
   }
-  footer section p {
-    padding: 20px;
+  .sobre-album {
+    flex-direction: column;
+    height: 130vh;
+  }
+  .sobre-album img {
+    width: 70%;
+  }
+  .sobre-album img p {
+    font-size: 20px;
+    width: 25vw;
+    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
