@@ -278,6 +278,15 @@ iframe {
         padding: 15px;
     }
     
+    .video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+
     .social-media {
         display: inline-block;
         margin-bottom: 10px;
