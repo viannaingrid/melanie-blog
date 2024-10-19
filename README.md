@@ -3,6 +3,7 @@
 <h2>Cantora Melanie Martinez</h2>
 <p>Esse projeto é uma aplicação web voltada para a criação e compartilhamento de posts de blog, utilizando tecnologias como HTML, CSS, SASS no front-end</p>
 <br>
+<p>Acesse o projeto no  <a href="https://melanie-blog.vercel.app/" target="_blank">Vercel</a></p>
 <h3>Linguagens utilizadas</h3>
 <br>
 <div align="left">
